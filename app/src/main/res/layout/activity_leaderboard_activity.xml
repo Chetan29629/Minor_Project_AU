@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    tools:context=".leaderboard">
+
+    <!-- Header Text -->
+    <TextView
+        android:id="@+id/listTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/headerText"
+        android:textStyle="bold"
+        android:textSize="@dimen/_18sdp"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:fontFamily="@font/ptsansbold" />
+
+    <!-- Subtitle Text -->
+    <TextView
+        android:id="@+id/subTitleTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subtitleText"
+        android:textSize="@dimen/_11sdp"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/listTxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:fontFamily="@font/ptsansbold"/>
+
+    <!-- Leaderboard ListView -->
+    <ListView
+        android:id="@+id/leaderboardListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="@dimen/_16sdp"
+        android:padding="@dimen/_14sdp"
+        android:layout_below="@id/subTitleTxt"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:background="@drawable/listview_background"
+        android:paddingStart="@dimen/_14sdp"
+        android:paddingEnd="@dimen/_14sdp"
+        android:layout_marginBottom="@dimen/_14sdp"
+        android:layout_marginHorizontal="@dimen/_14sdp"
+        android:layout_marginVertical="@dimen/_8sdp"
+        android:elevation="@dimen/_4sdp"
+        android:clipToPadding="false"/>
+
+    <!-- Exit Button -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/exitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/exitApp"
+        android:src="@drawable/baseline_exit_to_app_24"
+        android:layout_margin="36dp"
+        android:layout_alignEnd="@id/leaderboardListView"
+        android:layout_alignParentBottom="true"
+       />
+
+</RelativeLayout>

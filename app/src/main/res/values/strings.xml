@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Orientataion Quiz</string>
+    <string name="name">Enter your Name : </string>
+    <string name="email">Enter your Email Address :</string>
+    <string name="course">Enter your Course :</string>
+
+
+    <string name="appLogo">University Logo</string>
+
+    <string name="registerUser">Participants Detailing Form</string>
+    <string name="txtFullName">Full Name*</string>
+    <string name="txtCourse">Course*</string>
+    <string name="language">Preferred Language*</string>
+
+
+    <string name="edtFullName">Enter your Full Name</string>
+    <string name="edtCourse">Enter your Course</string>
+    <string name="editLanguage">Type Hindi or English</string>
+    <string name="register">Submit</string>
+
+    <string name="QuizCode">Enter valid Quiz Code </string>
+    <string name="codeSent">Quiz Code has been shared on Screen</string>
+    <string name="verify">Start Quiz</string>
+
+
+    <string name="quizComplete">Quiz has been completed successfully</string>
+    <string name="showLeaderBoard">Show LeaderBoard</string>
+
+
+    <string name="headerText">Leaderboard</string>
+    <string name="subtitleText">Sorted by scores gained by students</string>
+    <string name="exitApp">Exit to App</string>
+</resources>

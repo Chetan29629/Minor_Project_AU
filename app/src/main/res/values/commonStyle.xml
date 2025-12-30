@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="labelStyle">
+        <item name="android:textSize">17sp</item>
+       <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/_28sdp</item>
+        <item name="color">@color/black</item>
+    </style>
+
+</resources>

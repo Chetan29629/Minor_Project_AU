@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "518334927856",
+    "project_id": "orientataion-quiz",
+    "storage_bucket": "orientataion-quiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518334927856:android:042b71e547ddf9c736c335",
+        "android_client_info": {
+          "package_name": "com.example.orientataionquiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAhJLvYZ2mR14XVBLVj2Qoz8G4QC-Kk08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
