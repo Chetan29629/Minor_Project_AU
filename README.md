@@ -23,6 +23,8 @@ The application automatically evaluates user responses, displays the final score
 - **Himanshu Tagariya**  
   Roll No: **23CA2601019**
 
+- **Aayush Saraswat**  
+  Roll No: **23CA2601003**
 
 
 ## 🎓 Academic Purpose
